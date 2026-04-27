@@ -13,7 +13,7 @@ The app runs at `http://127.0.0.1:5173` by default.
 
 ## Shopify setup
 
-Copy `.env.example` to `.env` and add:
+Inside `.env` add:
 
 ```bash
 VITE_SHOPIFY_STORE_DOMAIN=your-shop.myshopify.com
