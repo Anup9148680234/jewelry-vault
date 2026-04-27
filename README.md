@@ -18,7 +18,6 @@ Copy `.env.example` to `.env` and add:
 ```bash
 VITE_SHOPIFY_STORE_DOMAIN=your-shop.myshopify.com
 VITE_SHOPIFY_STOREFRONT_TOKEN=your-storefront-access-token
-VITE_SHOPIFY_API_VERSION=2025-10
 ```
 
 Without credentials, the app shows a sample jewelry catalogue so the homepage, filters, product
