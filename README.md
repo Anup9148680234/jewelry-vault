@@ -13,6 +13,8 @@ The app runs at `http://127.0.0.1:5173` by default.
 
 ## Shopify setup
 
+Get the access token from you shopify storefront in order to fetch data dynamically through graphQL
+
 Inside `.env` add:
 
 ```bash
@@ -24,6 +26,15 @@ Without credentials, the app shows a sample jewelry catalogue so the homepage, f
 details, cart persistence, and checkout error handling can still be reviewed. With credentials, the
 product grid fetches Shopify products and checkout creates a Shopify cart before redirecting to the
 hosted checkout URL.
+
+
+## Deployment
+
+import your repo in vercel 
+
+import your .env file with the credentials in vercel 
+
+deploy
 
 ## Features
 
